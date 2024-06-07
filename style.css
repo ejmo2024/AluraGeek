@@ -1,0 +1,429 @@
+header{
+
+
+    /* border: 1px solid red;*/
+     display: flex;
+     justify-content: space-around;
+     height: 70px;
+     align-items: center;
+   }
+   .buscar_label{
+     /*border: 1px solid ;*/
+     text-align: center;
+     height: 40px;
+     width: auto;
+     border-style: none;
+   
+     position: relative;
+   
+   align-content: center;
+   
+   }
+   
+   
+     .buscar_input{
+       width: 200px;
+       height: 30px;
+       font-size: 16px;
+       background-color: #141414;
+       color: #cfcfcf;
+       border: 1px solid #1d1d1d;;
+       border-radius: 5px 0px 0px 5px;
+   
+   
+     }
+   
+     .buscar_input:focus{
+       outline: 1px solid #cfcfcf;
+     }
+   
+   
+   .buscar_icon{
+     width: 30px;
+     height: 28px;
+     border: 1px solid  #070103;
+     position: absolute;
+     border-radius: 0 5px 5px 0;
+     /*top: 50%;*/
+   
+     /*transform: translateY(-50%);*/
+   
+   }
+   .submit{
+     border:none;
+     text-align: center;
+     width: 50px;
+     height: 30px;
+     font-size: 16px;
+     border-radius: 6px;
+   justify-content: center;
+     align-items: center;
+     
+     background-color: #0070f3;
+     color:#fff; 
+    
+     
+   }
+   .submit:hover{
+     cursor: pointer;
+      transform: scale(1.1); /* Aumenta el tamaño al 110% cuando se posa el ratón sobre el botón */
+   }
+   .banner{
+     width: 100%;
+   }
+   
+   .banner_img{
+     width: 100%;
+   }
+   .contenido{
+     display: flex;
+     gap:10px;
+   }
+   
+   .cards{
+    /* border: 1px solid;*/
+     display: flex;
+     gap: 20px;
+     flex-wrap: wrap;
+     margin-top: 15px;
+   }
+   .card{
+     border: 1px solid #eaeaea;
+     width: 200px;
+     height: 350px;
+     border-radius: 10px;
+    /* margin: 20px auto;*/
+     text-align: center;
+   }
+   
+   .card:focus,
+   .card:active {
+     color: #0070f3;
+     border-color: #0070f3;
+   }
+   .card:hover{
+     color: #0070f3;
+     border-color: #0070f3;
+      transform: scale(1.1); /* Aumenta el tamaño al 110% cuando se posa el ratón sobre el botón */
+     cursor: pointer;
+   }
+   
+   
+   .card_img{
+     width: 100%;
+     height: 55%;
+     margin: 10px auto 0; /* 10px arriba, auto a los lados, 0 abajo */
+     border-radius: 10px;
+   
+     /*margin-top: 10px;*/
+    
+   
+   }
+   h2{
+     text-align:center;
+     
+     margin :5px auto;
+   }
+   h3{
+     text-align:center;
+    
+     margin: 5px auto;
+   }
+   .card_botones{
+     
+     display: flex;
+     justify-content:space-between;
+      margin: 30px auto 0; /* 10px arriba, auto a los lados, 0 abajo */
+     width: 90%;
+    
+   
+   
+   }
+   .btn_editar{
+     border-radius: 8px;
+     background-color: #1057fc;
+     color:#fff; 
+     height: 30px;
+     width: 55px;
+     border: none;
+   }
+   .btn_eliminar{
+    border-radius: 8px;
+     background-color: #1057fc;
+     color:#fff; 
+     height: 30px;
+     border: none;
+   }
+   
+   
+   .btn_editar.btn_editar:hover{
+     /*color: #0070f3;*/
+     border-color: #0070f3;
+      transform: scale(1.1); /* Aumenta el tamaño al 110% cuando se posa el ratón sobre el botón */
+   }
+   .btn_eliminar:hover{
+     border-color: #0070f3;
+     transform: scale(1.1); 
+   }
+   
+   .container_form{
+     /*border: 1px solid red;*/
+     width: 500px;
+    
+   }
+   /****************** formulario*/
+   .product_form{
+    
+     width: 400px;
+     border: 1px solid #1057fc;
+     text-align: center;
+     margin: 20px auto;
+    /* width: 450px;*/
+     height: 500px;
+     border-radius: 15px;
+   }
+   .producto_logo{
+     margin-top: 20px;
+   }
+   
+   label{
+     display: block;
+   }
+   .in{
+     width: 90%;
+     height: 40px;
+     font-size: 16px;
+     background-color: #ffffff;
+     color: #404040;
+     border: 1px solid #1057fc;
+     border-radius: 10px;
+     margin:8px;
+   
+   
+   }
+   .in:focus{
+     outline: 1px solid #0080ff;
+   }
+   
+   .in:hover{
+     cursor: pointer;
+     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); /* Sombra al hacer hover */
+   }
+   
+   .btn_guardar{
+     width: 90%;
+     height: 40px;
+     font-size: 16px;
+     background-color: #1057fc;
+     color: #c0c0c0;
+     /*border: 1px solid #778480;*/
+     border: none;
+     border-radius: 10px;
+     margin:5px;
+   }
+   .btn_guardar:focus{
+     outline: 1px solid #0080ff;
+   }
+   
+   .btn_guardar:hover{
+     cursor: pointer;
+     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); /* Sombra al hacer hover */
+     transform: scale(1.1); /* Aumenta el tamaño al 110% cuando se posa el ratón sobre el botón */
+   }
+   
+   /*    footer*/
+   footer{
+     display: flex;
+     gap: 10px;
+     margin-top: 20px;
+   
+     justify-content: center;
+   }
+   .uno{
+   display: flex;
+     width: 40%;
+    
+    
+    
+    
+    
+   }
+   .img_footer{
+     width: 30%;
+     height: 10%;
+     margin-right: 30px;
+     margin-left: 10px;
+     margin-top: 50px;
+   }
+   
+   .uno_ul{
+     list-style: none;
+     padding: 0;
+     margin: 0;
+   
+   }
+   .uno_li{
+     font-size: 20px;
+     margin-top: 40px;
+     margin-bottom: 20px;
+     margin-left: 50px;
+    
+   }
+   .uno_li:hover{
+     cursor: pointer;
+     color: #0070f3;
+   }
+   
+   .dos{
+     display: flex;
+    justify-content: center;
+     width: 55%;
+   
+   
+   }
+   .deje_mensaje{
+    
+     width: 90%;
+     height: 410px;
+    
+     text-align: center;
+    
+   }
+
+   .in_mensaje{
+     width: 70%;
+     height: 40px;
+     font-size: 16px;
+     background-color: #ffffff;
+     color: #404040;
+     border: 0.5px solid #1057fc;
+     border-radius: 10px;
+     margin:8px;
+     
+   
+   }
+   .in_mensaje:hover{
+     cursor: pointer;
+     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); /* Sombra al hacer hover */
+   }
+   .in_mensaje:focus{
+      outline:none;
+     }
+   
+   
+   
+   
+   
+   textarea{
+     display: block;
+     width: 70%;
+    height: 190px;
+    resize: none;
+     margin: 0 auto;
+     margin-top: 10px;
+     border: 1px solid #1057fc;
+     border-radius: 10px;
+     font-size: 16px;
+   }
+   textarea:focus{
+     outline: none;
+   }
+   .btn_enviar_comentario{
+     width: 40%;
+     height: 40px;
+     font-size: 14px;
+     background-color: #1057fc;
+     color: #c0c0c0;
+     /*border: 1px solid #778480;*/
+     border: none;
+     border-radius: 8px;
+     margin-top: 3px;
+     
+   }
+   .btn_enviar_comentario:hover{
+     cursor: pointer;
+     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); /* Sombra al hacer hover */
+     transform: scale(1.1); /* Aumenta el tamaño al 110% cuando se posa el ratón sobre el botón */
+     
+   }
+   .btn_enviar_comentario:focus{
+     outline: 1px solid #0080ff;
+   }
+   
+   
+   
+   
+   @media (max-width: 850px) {
+     .contenido{
+       flex-direction: column-reverse;
+       justify-content: center;
+       align-items: center;
+     }
+   }
+   
+   
+   @media (max-width: 550px) {
+     header{
+      /* display: none;*/
+     }
+   
+     .header_icon{
+       display: none;
+     }
+     
+     .buscar_input{
+       font-size: 14px;
+       /*transform: translateY(-50%);*/
+     }
+   
+   
+     .submit{
+       width: 55px;
+       height: 30px;
+       font-size: 14px;
+      
+     }
+     
+     
+     .cards{
+      /* border: 1px solid;*/
+    
+       justify-content: center;
+       gap: 25px;
+     }
+   
+   
+   
+     
+     .container_form{
+       /*border: 1px solid red;*/
+       width: 90%;
+   
+     }
+     .product_form{
+       width: auto;
+       height: auto;
+     }
+     .card{
+        border: 1px solid #eaeaea;
+      width:300px;
+       height: 350px;
+       border-radius: 10px;
+      /* margin: 20px auto;*/
+        text-align: center;
+     }
+   
+     footer{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+     }
+     .uno{
+       width: 100%;
+     }
+     .dos{
+       width: 100%;
+     }
+   }
+   
+   

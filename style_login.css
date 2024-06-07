@@ -1,0 +1,54 @@
+.loggin{
+  border: 1px solid #1057fc;
+  text-align: center;
+  margin: 20px auto;
+  width: 400px;
+  height: 500px;
+  border-radius: 15px;
+
+
+}
+.loggin_img{
+ margin-top: 20px;
+}
+
+label{
+  display: block;
+}
+.in{
+  width: 90%;
+  height: 40px;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #cfcfcf;
+  border: 1px solid #1057fc;
+  border-radius: 10px;
+  margin:8px;
+
+
+}
+.in:focus{
+  outline: 1px solid #cfcfcf;
+}
+.in:hover{
+  outline: 1px solid #cfcfcf;
+  cursor: pointer;
+}
+
+.btn_ingresar{
+  width: 90%;
+  height: 40px;
+  font-size: 16px;
+  background-color: #1057fc;
+  color: #cfcfcf;
+  /*border: 1px solid #ffffff;*/
+  border: none;
+  border-radius: 10px;
+  margin:5px;
+
+}
+.btn_ingresar:hover{
+  cursor: pointer;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3); 
+
+  }

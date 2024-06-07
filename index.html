@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>AluraGeek</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  
+  <header>
+
+    <img src="imagenes/Logo1(1).png" class="header_icon">
+
+    <label class="buscar_label"> 
+    <input type="search" class="buscar_input" placeholder="¿que deseas buscar ?" >
+    <img class="buscar_icon" src="imagenes/iconBuscar.png">
+    </label>
+
+    <input type="submit" class="submit" id="btn_login" value="Login" >
+
+
+    
+   
+  </header>
+
+  
+  
+  <main>
+
+    <div class="banner">
+       <img src="imagenes/banner-image.png" class="banner_img">
+    </div>
+
+    
+    
+    <div class="contenido">
+      
+    <section class="container_form">
+      <form id="producto_form" class="product_form">
+        <img src="imagenes/Logo1(1).png" class="producto_logo">
+        <h2 class="producto_titulo">Agregar producto</h2>
+        <label for="nombre">
+        <input type="text" id="nombre" class="in" placeholder="Nombre del producto" required >
+        </label>
+        
+        <label for="url">
+        <input type="url" id="url" class="in" placeholder="Url de la imagen" required>
+        </label>
+        
+        <label for="titulo">
+        <input type="text" id="titulo" class="in" placeholder="Titulo descriptivo" required>
+        </label>
+        
+        <label for="precio">
+        <input type="text" id="precio" class="in" placeholder="Precio" required>
+        </label>
+        
+        <input type="submit" id="boton_guardar" class="btn_guardar" value="Guardar"  >
+      </form>
+    </section>
+
+
+    <section class="container_cards">
+      <div class="cards">
+
+         <!-- <div class="card">
+            <img src="https://img.freepik.com/fotos-premium/caballero-dibujos-animados-lindo-espada-escudo-concepto-superheroe-ai-generativo_891301-13461.jpg" class="card_img" alt="">
+
+            <h2 class="card_nombre">Nombre</h2>
+            <h3 class="card_precio">Precio</h3>
+
+            <div class="card_botones">
+            <input type="button" id="btn_editar" class="" value="Editar">
+          <input type="button" id="btn_eliminar" class="" value="eliminar">
+            </div>
+
+          </div>
+          -->
+
+
+      </div>
+      
+      </div>
+    
+  </main>
+
+  
+  <footer>
+    <div class="uno">
+      <img src="imagenes/Logo1(1).png" class="img_footer">
+      <ul class="uno_ul">
+        <li class="uno_li">Quienes somos</li>
+        <li class="uno_li">Politicas de privaciad</li>
+        <li class="uno_li">Programa de fidelidad</li>
+        <li class="uno_li">Nuestras tiendas</li>
+        <li class="uno_li">Quiero ser franquisiado</li>
+        <li class="uno_li">Anuncie aqui</li>
+      </ul>
+    </div>
+    <!--form hable con nosotros-->
+    <div class="dos">
+      
+      <form class="deje_mensaje">
+        <h3 class="titulo_deje_mensaje">Hable con nosotros</h3>
+        <label for="nombre_mensaje">
+          <input type="text" id="nombre_mensaje" class="in_mensaje" placeholder="Nombre" required>
+        </label>
+        <label for="email_mensaje">
+          <input type="email" id="email_mensaje" class="in_mensaje" placeholder="Email" required>
+        </label>
+        <textarea placeholder="Escribe tu comentario"></textarea>
+        <input type="submit" class="btn_enviar_comentario" value="Enviar mensaje">
+      </form>
+    </div>
+  </footer>
+
+  <script type="module" src="script.js"></script>
+
+</body>
+
+</html>
